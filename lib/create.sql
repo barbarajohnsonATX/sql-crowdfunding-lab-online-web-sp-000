@@ -2,7 +2,7 @@ CREATE TABLE projects
 (id INTEGER PRIMARY KEY, 
 title TEXT, 
 category TEXT, 
-funding_goal INTEGER,
+funding_goal FLOAT,
 start_date TEXT,
 end_date TEXT);
  
@@ -13,7 +13,7 @@ age INTEGER);
 
 CREATE TABLE pledges 
 (id INTEGER PRIMARY KEY,
-amount INTEGER,
+amount FLOAT,
 user_id TEXT,
 project_id TEXT);
 
